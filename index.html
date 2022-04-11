@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola Pe</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./assets/image/minion.png" type="image/x-icon">
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader-container">
+        <img src="./assets/image/animation_300_l1uaade2.gif" alt="minion">
+    </div>
+    <!-- LoginBox-->
+    <div class="loginbox">
+        <div class="image">
+            <img src="./assets/image/draken.jpg" alt="Draken" class="avatar">
+        </div>
+        <form action="">
+            <input class="controls" type="text" id="user" name="user" placeholder="Correo electrónico">
+            <input class="controls" type="text" id="pass" name="pass" placeholder="Contraseña">
+            <input class="btn" type="submit" value="Iniciar sesión">
+        </form>
+    </div>
+    <!-- Script / Loader -->
+    <script>
+        $(window).on("load",function(){
+            $(".loader-container").fadeOut(2000);
+        });
+    </script>
+</body>
+</html>

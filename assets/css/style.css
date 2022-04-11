@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;300;400;500;600;700;800;900&family=Ropa+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Encode Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+/* HOME */
+.container{
+    width: 80%;
+    height: 560px;
+    position: relative;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.nav-btn{
+    display: flex;
+}
+.nav-btn button{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Content */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    position: absolute;
+    transform: translateX(100%);
+}
+.content-left p{
+    width: 95%;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px 0;
+}
+.content-left a{
+    width: 150px;
+    display: block;
+    padding: 8px 5px;
+    border-radius: 4px;
+    background: #A950A1;
+    color: #fff;
+    text-align: center;
+}
+.content-right img{
+    width: 300px;
+    border: 2px solid #A950A1;
+}
+#content1{
+    transform: translateX(0px);
+}
+#btn1{
+    color: #A950A1;
+}
