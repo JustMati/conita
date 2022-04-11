@@ -76,6 +76,8 @@ body::before{
 }
 .loginbox .btn{
     width: 100%;
+    display: block;
+    text-align: center;
     background: linear-gradient(to left, #A950A1, #2D3A54, #A950A1);
     border: none;
     background-size: 300%;
